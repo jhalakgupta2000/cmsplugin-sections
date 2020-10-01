@@ -35,6 +35,7 @@ smooth, intra-page link scrolling. I use something like this in my projects
 that use jQuery:
 
 ```` Javascript
+//code for plugin system for single page scroller websites
 (function($){
   $(function(){
     //
@@ -111,7 +112,7 @@ class SplashSectionPluginModel(AbstractSectionBasePluginModel):
 
 NOTE:
 	
-	If is entirely optional to create your own pluginmodel if you don't need
+	If is entirely optional to create your own plugin model if you don't need
 	to add configuration options. You *could* just use the provided one, but,
 	if you ever change your mind, it will be rather complicated to migrate any
 	existing Section plugins to your new model. If instead you create an
